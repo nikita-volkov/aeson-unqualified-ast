@@ -32,4 +32,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           version-bump-place: ${{ fromJSON('{"supermajor":0,"major":1,"minor":2,"patch":3}')[github.ref_name] }}
           main-branch: master
-          prefix-tag-with-v: false
+          prefix-tag-with-v: true
