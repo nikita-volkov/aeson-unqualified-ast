@@ -1,0 +1,22 @@
+# We apply the Gitignore Whitelist approach here.
+# Instead of the common practice of growing a dump of all the things
+# that we don't want to track, we explicitly state what we want tracked.
+# 
+# More on the approach in this nice blog-post:
+# https://jasonstitt.com/gitignore-whitelisting-patterns.
+
+# Ignore everything in the root
+/*
+
+# Unignore subtrees
+!/src
+
+# Unignore files in the root
+!/*.cabal
+!/.gitignore
+!/cabal.project
+!/Makefile
+!/LICENSE
+
+# Ignore the remaining noise in the subtrees.
+.DS_Store

@@ -2,7 +2,7 @@
 --
 -- This module is intended to be imported unqualified.
 -- It is obliged by the package policy to never pollute the namespace.
-module AesonUnqualified where
+module Data.Aeson.UnqualifiedAst where
 
 import Data.Aeson qualified as Aeson
 import Data.Aeson.Encoding (scientific)
