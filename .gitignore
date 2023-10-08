@@ -9,6 +9,7 @@
 /*
 
 # Unignore subtrees
+!/.github
 !/src
 
 # Unignore files in the root
