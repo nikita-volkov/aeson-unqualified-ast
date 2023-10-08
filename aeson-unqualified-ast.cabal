@@ -9,7 +9,7 @@ license-file:  LICENSE
 synopsis:      Aliases to "aeson" AST making it importable unqualified
 description:
   Reasonable type aliases and patterns for the AST definitions of \"aeson\",
-  which unlike the original are unlikely to cause any conflicts when imported unqualified.
+  which are unlikely to cause any conflicts when imported unqualified.
   As such the definitions from this package are safe to reexport from custom preludes.
   .
   The package provides a "Json" type alias and pattern synonyms,
