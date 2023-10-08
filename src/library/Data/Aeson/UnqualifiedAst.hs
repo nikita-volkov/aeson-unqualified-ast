@@ -12,7 +12,6 @@
 module Data.Aeson.UnqualifiedAst where
 
 import Data.Aeson qualified as Aeson
-import Data.Aeson.Encoding (scientific)
 import Data.Aeson.KeyMap qualified as AesonKeyMap
 import Data.Bool (Bool)
 import Data.Scientific (Scientific)
