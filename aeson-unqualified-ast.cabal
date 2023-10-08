@@ -1,6 +1,6 @@
 cabal-version: 3.0
 name:          aeson-unqualified-ast
-version:       1
+version:       1.0.0.1
 author:        Nikita Volkov <nikita.y.volkov@mail.ru>
 maintainer:    Nikita Volkov <nikita.y.volkov@mail.ru>
 copyright:     (c) 2023 Nikita Volkov
@@ -11,8 +11,7 @@ description:
   Reasonable type aliases and patterns for the AST definitions of \"aeson\",
   which are unlikely to cause any conflicts when imported unqualified.
   As such the definitions from this package are safe to reexport from custom preludes.
-  .
-  The package provides a "Json" type alias and pattern synonyms,
+  The package provides the \"Json\" type alias and pattern synonyms,
   which are both descriptive and unambiguous, unlike the ones in the \"aeson\" package.
 
 common language-settings
