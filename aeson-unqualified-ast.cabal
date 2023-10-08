@@ -11,8 +11,7 @@ description:
   Reasonable type aliases and patterns for the AST definitions of \"aeson\",
   which are unlikely to cause any conflicts when imported unqualified.
   As such the definitions from this package are safe to reexport from custom preludes.
-  .
-  The package provides a "Json" type alias and pattern synonyms,
+  The package provides the \"Json\" type alias and pattern synonyms,
   which are both descriptive and unambiguous, unlike the ones in the \"aeson\" package.
 
 common language-settings
