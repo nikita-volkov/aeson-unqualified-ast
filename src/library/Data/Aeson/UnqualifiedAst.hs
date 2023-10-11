@@ -63,6 +63,8 @@ pattern BoolJson bool = Aeson.Bool bool
 pattern NullJson :: Json
 pattern NullJson = Aeson.Null
 
+{-# COMPLETE ObjectJson, ArrayJson, StringJson, NumberJson, BoolJson, NullJson #-}
+
 -- * Other types
 
 -- | Alias to JSON Object AST.
