@@ -6,8 +6,10 @@ maintainer:    Nikita Volkov <nikita.y.volkov@mail.ru>
 copyright:     (c) 2023 Nikita Volkov
 license:       MIT
 license-file:  LICENSE
-homepage:           https://github.com/nikita-volkov/aeson-unqualified-ast
-bug-reports:        https://github.com/nikita-volkov/aeson-unqualified-ast/issues
+homepage:      https://github.com/nikita-volkov/aeson-unqualified-ast
+bug-reports:
+  https://github.com/nikita-volkov/aeson-unqualified-ast/issues
+
 synopsis:      Aliases to "aeson" AST making it importable unqualified
 description:
   Reasonable type aliases and patterns for the AST definitions of \"aeson\",
